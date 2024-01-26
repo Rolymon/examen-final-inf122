@@ -1,6 +1,6 @@
 # Examen Final
 ## Programación Web II
-
+## asignacion de pokemon 220
 ### Antes de Empezar:
 
 1. Realiza un **Fork** de este repositorio:
@@ -19,7 +19,7 @@ Estás postulando para un puesto de desarrollador **Front-end** en una empresa q
 |  `<id de pokemon asignado> `|
 
 #### Documentación de la API de Pokemon:
-`GET https://pokeapi.co/api/v2/pokemon/{id o nombre de pokemon}`
+`GET https://pokeapi.co/api/v2/pokemon/220`
 
 ##### Pokemon (Tipo)
 
