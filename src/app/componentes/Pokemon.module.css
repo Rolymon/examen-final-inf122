@@ -12,6 +12,11 @@
     word-spacing: 60%;
     
 }
-.titus{
-    font-size: 18px;
+
+.br{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20%;
+}
+.num{
+    text-align: right;
 }

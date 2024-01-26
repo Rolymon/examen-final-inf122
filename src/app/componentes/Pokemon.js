@@ -10,7 +10,9 @@ function Pokemon() {
     const [nom,setNom]=useState('');
     const[heig,setHeig]=useState('');
     const [weig,setWeig]=useState('');
-   
+
+   const  [num,setNum]=useState('');
+
     const [hp,setHp]=useState('');
     const [atack,setAtack]=useState('');
     const [def,setDef]=useState('');
@@ -29,6 +31,8 @@ function Pokemon() {
                 setHeig(data.height);
                 setWeig(data.weight);
 
+                setNum(data.id);
+
                 setHp(data.stats[0].base_stat);
                 setAtack(data.stats[1].base_stat);
                 setDef(data.stats[2].base_stat);
@@ -41,9 +45,10 @@ function Pokemon() {
         <div className={styles.poke}>
             
             <h1 className={styles.titulo}>{` ${nom}`} </h1>
+            <h1 className={styles.num}>{`# ${num}`}</h1>
             <img src={pokemon} alt="pokemon"  width={500} height={500} />
 
-
+                <div className={styles.br}>
                 <div className={styles.hab}>
                     <h1 className={styles.titus}>ABOUT</h1>
                     <div className={styles.about}>
@@ -60,7 +65,7 @@ function Pokemon() {
                         <h1>{`defense:       ${def}`} </h1>
                         <h1>{`speed:         ${speed}`} </h1>
                     </div>   
-
+                    </div>
 
                 </div>
 
