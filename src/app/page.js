@@ -4,7 +4,7 @@ import Pokemon from "./componentes/Pokemon"
 export default function Home() {
   return (
     <div className={styles.container}>
-        <h1>my pokemon</h1>
+        <h1 className={styles.tit}>my pokemon</h1>
           <Pokemon/>
     </div>
     

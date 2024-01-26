@@ -1,10 +1,17 @@
 
 .titulo{
-    text-align: right;
-    font-size: 20px;
+    text-transform: capitalize;
+    inline-size: 20%;
+    
+    font-size: 28px;
     
 }
 .about{
-    margin-left: 20%;
-    font-size: small;
+    margin-left: 5%;
+    font-size: xx-small;
+    word-spacing: 60%;
+    
+}
+.titus{
+    font-size: 18px;
 }
